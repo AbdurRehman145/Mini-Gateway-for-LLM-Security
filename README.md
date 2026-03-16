@@ -28,14 +28,14 @@ To run this project, you will need:
 
 To ensure full reproducibility, please follow these exact steps to configure your environment and install the required dependencies.
 
-**1. Clone the repository** <br>
+**1. Clone the repository**  
 Open your terminal and run: 
 ```bash
 git clone https://github.com/AbdurRehman145/Mini-Gateway-for-LLM-Security
 cd Mini-Gateway-for-LLM-Security
 ```
 
-**2. Create a Virtual Environment**<br>
+**2. Create a Virtual Environment**  
 On Windows:
 ```bash
 python -m venv venv
