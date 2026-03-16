@@ -19,7 +19,7 @@ The gateway is built with a strictly modular, object-oriented pipeline consistin
 
 ## Prerequisites
 To run this project, you will need:
-* **Python 3.8+** installed on your system.
+* **Python 3.8-3.12** installed on your system.
 * **Git** (to clone the repository).
 
 ---
