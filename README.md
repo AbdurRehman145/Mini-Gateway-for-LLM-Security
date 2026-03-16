@@ -28,8 +28,31 @@ To run this project, you will need:
 
 To ensure full reproducibility, please follow these exact steps to configure your environment and install the required dependencies.
 
-**1. Clone the repository**
-Open your terminal and run:
+**1. Clone the repository** 
+Open your terminal and run: 
 ```bash
 git clone https://github.com/AbdurRehman145/Mini-Gateway-for-LLM-Security
 cd Mini-Gateway-for-LLM-Security
+
+**2. Create a Virtual Environment**
+On Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+
+On macOS and Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+**3. Install Dependencies**
+```bash
+pip install -r requirements.txt
+
+**4. Download the NLP Language Model**
+```bash
+python -m spacy download en_core_web_lg
+
+**5. Run th Code**
+```bash
+python main.py
